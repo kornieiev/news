@@ -1,0 +1,18 @@
+Interception routes
+===================
+Используется когда нужно словить пользователя когда он переходит по ссылке из вне на страницу,
+а не когда визит на страницу сделан изнутри сайта.
+===================
+
+Creates by adding new folder wich named starts with () parentheses
+
+incide the parentheses includes the path to the folder:
+(.) - to match the segment on the same level
+(..) - to match the segment one lavel above
+(..)(..) - to match the segment two levels above
+(...)(...) - match segment from the root app directory
+
+after the () repeats the name of path route wich need to be intercepted
+
+if I want to intercept the image route I need to name that folder (.)image
+
